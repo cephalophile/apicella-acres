@@ -1,14 +1,11 @@
 /*font-family: 'Cormorant SC', serif;
 font-family: 'Josefin Slab', serif;*/
-
-.overlay { 
-    background-color: rgba(255, 255, 255, 0.3);
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -50%);
-    z-index: 1000;
-    width: 100%;
+:root{
+    --white: #fafafc;
+    --lime: #678022;
+    --green: #3C5420;
+    --tan: #937143;
+    --black: #323434;   
 }
 
 h1{
@@ -16,6 +13,12 @@ h1{
     text-transform:uppercase;
     font-family: 'Cormorant SC', serif;
     font-size: 100px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-size: 4em;
 }
 
 footer{
@@ -29,6 +32,18 @@ footer{
 }
 
 
+.overlay { 
+    background-color: rgba(255, 255, 255, 0.3);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index: 1000;
+    width: 100%;
+}
+
+
+
 .footerLink{
     text-decoration: none;
     color: black;
@@ -36,4 +51,8 @@ footer{
 
 .fa-instagram{
     font-size: 20px;
+}
+
+.right{
+    text-align: right;
 }
