@@ -19,17 +19,15 @@
 </head>
 <body>
     <!-- NAVIGATION -->
-    <nav class="navbar bg-light">
-  <div class="container-fluid">
-    
-  </div>
-</nav>
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand d-none d-md-block" href="#">
       <img src="images/logos/Logo.PNG" alt="Logo" width="80" height="80" class="d-inline-block align-text-center">
       Apicella Acres
     </a>
+    <a class="navbar-brand d-block d-md-none" href="#">
+        <img src="images/logos/Logo.PNG" alt="Logo" width="80" height="80" class="d-inline-block align-text-center">
+      </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -46,10 +44,9 @@
 <!-- active" aria-current="page" -->
 <!-- end navigation -->
 
-<!-- OVERLAY -->
-<div class="overlay"><h1>Apicella<br>Acres</h1></div>
+
 <!-- CAROUSEL -->
-<div class="600-px-height">
+<div class="carouselContain d-flex mx-auto">
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -77,7 +74,10 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+<!-- OVERLAY -->
+<div class="overlay"><h1>Apicella Acres</h1></div>
 </div>
+
 <!-- end of carousel -->
 
 <!-- ABOUT -->
@@ -89,15 +89,15 @@
         <div class="col d-none d-lg-block">
             <img class="img-fluid rounded aboutImg float-end" src="images/other_images/ct-nc.png" alt="map with points on CT and NC">
             </div>
-        <div class="col projectDescription text-muted mt-5 my-auto">
-            <p> We moved here from the cold and gray northeast state of CT in 2019. Our first few years 
+        <div class="col aboutPara text-muted mt-5 my-auto">
+            <p class="description"> We moved here from the cold and gray northeast state of CT in 2019. Our first few years 
             were a struggle to get on our feet, but eventually we were able to purchase the first
             leg in the Apicella Acres journey; a small 1.5 acre piece of land with our small, 100-year old 
             house! Since then we've been doing our best to make improvements and learn create a space                 hospitable to both ourselves and the ecosystem around us.</p>
         </div>
     <div class="row mt-5 mb-5">
         <div class="col projectDescription text-muted mt-5 my-auto">
-            <p class="right">It's always been a dream of ours to keep chickens. What started as four
+            <p class="description text-end">It's always been a dream of ours to keep chickens. What started as four
             hens to keep eggs in our cupboard quickly turned in thirteen hens with a
             dozen eggs a day! To say we love chickens might be an understatement. Our
             dream is to keep even more chickens and perhaps one day operate as a rescue
@@ -111,7 +111,7 @@
             <img class="img-fluid rounded aboutImg float-end" src="images/other_images/chickens-in-garden.jpg" alt="a large holy basil plant with flowers">
         </div>
         <div class="col projectDescription text-muted mt-5">
-            <p>Of course along with chickens came the garden; they seem to go hand in hand.
+            <p class="description">Of course along with chickens came the garden; they seem to go hand in hand.
             Our girls go into the garden to help clean up at the end of every growing 
             season. They also receive all of our garden and kitchen scraps (with additional
             scratch grains and dried bugs for treats)! Our garden is a constant experiment
