@@ -33,17 +33,25 @@ footer{
 
 
 .overlay { 
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
     position:absolute;
-    top:50%;
+    top:30%;
     left:50%;
     transform:translate(-50%, -50%);
     z-index: 1000;
     width: 100%;
 }
 
+.aboutImg{
+    max-height: 300px;
+}
 
-
+.projectDescription > p > a {
+    text-decoration: none;
+    color: var(--tan);
+    font-style: italic;
+    
+}
 .footerLink{
     text-decoration: none;
     color: black;
