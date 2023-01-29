@@ -31,11 +31,19 @@ footer{
     gap: 20px 30px;
 }
 
+.nav-link{
+    transition: all 200ms ease-in-out;
+}
+
+.nav-link:hover, .nav-link:focus{
+    text-decoration: overline;
+    color: var(--lime);
+}
 
 .overlay { 
     background-color: rgba(255, 255, 255, 0.5);
     position:absolute;
-    top:30%;
+    top:65%;
     left:50%;
     transform:translate(-50%, -50%);
     z-index: 1000;
@@ -51,6 +59,22 @@ footer{
     color: var(--tan);
     font-style: italic;
     
+}
+
+.meetBtn{
+    margin: auto auto 5em auto;
+    max-width: 40%;
+    background-color: var(--lime);
+    color: var(--white);
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-size: 30px;
+    border-radius: 20px;
+    transition: all 200ms ease-in-out;
+}
+
+.meetBtn:hover, .meetBtn:focus{
+    background-color: var(--green);
 }
 .footerLink{
     text-decoration: none;
