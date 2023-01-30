@@ -19,10 +19,17 @@ h1{
     text-align:center;
     text-transform:uppercase;
     font-family: 'Cormorant SC', serif;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 h2{
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    font-size: 2vmax;
+    margin: -5px auto -5px auto;
+}
+
+h3{
     text-align: center;
     font-family: 'Cormorant SC', serif;
     font-size: 4vmax;
@@ -62,6 +69,15 @@ footer{
     color: var(--lime);
 }
 
+.hero{
+    background-color: var(--green);
+    color: var(--white);
+    padding: 50px;
+}    
+
+.welcome{
+    padding-bottom: 100px;
+}
 
 .aboutImg{
     max-height: 300px;
