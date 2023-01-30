@@ -115,8 +115,8 @@ footer{
     color: var(--lime);
 }
 
-.carouselContain{
-    width: 50%;
+.shadow{
+    box-shadow: 10px 10px 10px yellow;
 }
 
 @media (max-width: 769px){
