@@ -119,6 +119,98 @@ footer{
     box-shadow: 10px 10px 10px yellow;
 }
 
+
+
+/*===== BIO SECTION =====*/
+.bioWrapper {
+    padding: 50px;
+   
+  }
+  .bioContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 80px;
+    row-gap: 150px;
+    margin-bottom: 100px;
+  }
+  .bioCard {
+    max-width: 200px;
+  }
+  
+  .bioImg {
+    object-fit: cover;
+    max-width: 200px;
+    max-height: 200px;
+    border: 3px solid var(--white);
+    border-radius: 200px;
+    background-color: var(--lime);
+    margin-bottom: 15px;
+  }
+  
+  .bioInfo {
+    display: flex;
+    max-width: 200px;
+    justify-self: center;
+    align-content: space-between;
+    background-color: rgba(147, 113, 67, .3);
+    border-radius: 0 0 20px 20px;
+    margin: -100px 0;
+    padding: 10px;
+  }
+  
+  .bioInfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-content: space-between;
+    margin-top: 80px;
+  }
+  
+  .cardTitle {
+    font-size: 20px;
+    font-family: "Cormorant SC", serif;
+    margin: 0;
+    color: black;
+  }
+  
+  .names {
+    margin-top: -2px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-style: italic;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .cardInfo {
+    font-size: 13px;
+    font-family: 'Josefin Slab', serif;
+    color: black;
+    margin-top: 0px;
+  }
+  
+  .eggSection {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
+    column-gap: 10px;
+  }
+  .eggInfo {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin-top: 10px;
+    color: black;
+  }
+  
+  .eggImg {
+    max-height: 40px;
+  }
+
+  /*--===== END BIO =====--*/
+
+
 @media (max-width: 769px){
     .navbar-brand{
         margin: auto auto auto 5%;
