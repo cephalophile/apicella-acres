@@ -257,6 +257,14 @@ footer{
     font-size: 2em;
   }
 
+  .emailLink{
+    color: var(--tan);
+  }
+
+  .emailLink:hover, emailLink:focus{
+    color:#323434;
+  }
+  
   .topBtn{
     width: 150px;
     color: var(--white);
