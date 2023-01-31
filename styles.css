@@ -25,7 +25,7 @@ h1{
 h2{
     text-align: center;
     font-family: 'Josefin Slab', serif;
-    font-size: 2vmax;
+    font-size: 1.5em;
     margin: -5px auto -5px auto;
 }
 
@@ -33,6 +33,19 @@ h3{
     text-align: center;
     font-family: 'Cormorant SC', serif;
     font-size: 4vmax;
+}
+
+h4{
+    font-family: 'Cormorant', serif;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:hover{
+    color: var(--white);
 }
 
 footer, p {
@@ -90,14 +103,18 @@ footer{
     
 }
 
+.inPlink{
+    color: var(--tan)!important;
+}
+
 .meetBtn{
-    margin: auto auto 5em auto;
-    max-width: 40%;
+    margin: 3em auto 3em auto;
+    max-width: 60%;
     background-color: var(--lime);
     color: var(--white);
     text-align: center;
     font-family: 'Cormorant SC', serif;
-    font-size: 30px;
+    font-size: 40px;
     border-radius: 20px;
     transition: all 200ms ease-in-out;
 }
@@ -210,7 +227,63 @@ footer{
 
   /*--===== END BIO =====--*/
 
+  /*===== SUSTAINABILITY =====*/
+.sustainabilityContainer{
+    padding: 8%;
+    background-color: var(--tan);
+    color: var(--white);
+    margin-bottom: 150px;
+    
+}/*===== end sustainability =====*/
 
+  /*===== GET EGGS =====*/
+  .getEggsSection{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .eggHeaderText{
+    color: var(--black)!important;
+    font-size: 6vmax;
+  }
+
+  .subsechead{
+    font-family: 'Cormorant', serif;
+    text-transform: uppercase;
+    font-size: 1.6em;
+  }
+
+  .getEggsInfo{
+    color: rgba(250,250,252,0.75);
+    margin: auto;
+    padding: 30px;
+    background-color: var(--green);
+  }
+  
+  .getEggsInfoText{
+    font-size: 1em;
+  }
+  #cost{
+    color: var(--white);
+    font-style: oblique;
+    font-size: 2em;
+  }
+
+  .topBtn{
+    width: 150px;
+    color: var(--white);
+    padding: 10px;
+    background-color: var(--tan);
+    margin: 30px auto 30px auto;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 20px;
+    transition: all 200ms ease-in-out;
+  }
+
+  .topBtn:hover, .topBtn:focus{
+    background-color: #4e3a1d;
+  }
 @media (max-width: 769px){
     .navbar-brand{
         margin: auto auto auto 5%;
@@ -226,7 +299,10 @@ footer{
   }
 
     .meetBtn{
-        margin-top: 4em;
+        margin-top: 2em;
     }
 
+    .subsechead{
+        margin-top: 50px;
+    }
 }
