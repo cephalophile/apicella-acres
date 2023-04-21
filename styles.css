@@ -249,12 +249,12 @@ footer{
   }
   
   .getEggsInfoText{
-    font-size: 1em;
+    font-size: 2em;
   }
   #cost{
     color: var(--white);
     font-style: oblique;
-    font-size: 3em;
+    font-size: 2em;
   }
 
   .emailLink{
