@@ -55,7 +55,7 @@ footer, p {
 
 footer{
     color:rgba(34, 33, 33,0.5);
-    font-size: 14px;
+    font-size: 18px;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -188,7 +188,7 @@ footer{
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .cardInfo {
-    font-size: 13px;
+    font-size: 16px;
     font-family: 'Josefin Slab', serif;
     color: black;
     margin-top: 0px;
