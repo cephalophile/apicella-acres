@@ -71,7 +71,7 @@ footer{
 
 .nav-link{
     font-family: 'Josefin Slab', serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     transition: all 200ms ease-in-out;
     margin: auto 1em auto 1em;
@@ -188,7 +188,7 @@ footer{
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .cardInfo {
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Josefin Slab', serif;
     color: black;
     margin-top: 0px;
@@ -254,7 +254,7 @@ footer{
   #cost{
     color: var(--white);
     font-style: oblique;
-    font-size: 2em;
+    font-size: 3em;
   }
 
   .emailLink{
