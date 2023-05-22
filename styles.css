@@ -5,7 +5,8 @@ font-family: 'Josefin Slab', serif;*/
     --lime: #678022;
     --green: #3C5420;
     --tan: #937143;
-    --black: #323434;   
+    --black: #323434;  
+    --ptext: 'Arial'; 
 }
 
 body{
@@ -128,7 +129,7 @@ footer{
 
 /*===== BIO SECTION =====*/
 .bioWrapper {
-    padding: 50px;
+    padding: 40px;
    
   }
   .bioContainer {
@@ -188,8 +189,9 @@ footer{
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .cardInfo {
-    font-size: 18px;
-    font-family: 'Josefin Slab', serif;
+    font-size: 14px;
+    font-family:sans-serif;
+    font-weight: 100;
     color: black;
     margin-top: 0px;
   }
