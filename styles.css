@@ -291,6 +291,21 @@ footer{
     transform: rotate(90deg);
 }
 
+.payment{
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.paymentTitle{
+  font-size: 30px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+}
+.paymentTag{
+  font-size: 18px;
+}
 .paymentQR{
   max-width: 300px;
 }
