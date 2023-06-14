@@ -291,6 +291,11 @@ footer{
     transform: rotate(90deg);
 }
 
+#nextdoor-link {
+  color:#678022;
+  font-weight: bold;
+}
+
 .payment{
   margin-top: 100px;
   display: flex;
