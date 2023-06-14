@@ -308,9 +308,19 @@ footer{
   font-family: 'Josefin Slab', serif;
   font-weight: bold;
 }
+
+.colorBlack{
+  color: black;
+}
+
+.colorBlack:hover{
+  color: var(--green);
+}
+
 .paymentTag{
   font-size: 18px;
 }
+
 .paymentQR{
   max-width: 300px;
 }
