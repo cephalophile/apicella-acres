@@ -5,8 +5,9 @@ font-family: 'Josefin Slab', serif;*/
     --lime: #678022;
     --green: #3C5420;
     --tan: #937143;
-    --black: #323434;  
-    --ptext: 'Arial'; 
+    --black: #323434;
+    --htext: 'Josefin Slab';  
+    --ptext: 'Helvetica'; 
 }
 
 body{
@@ -19,25 +20,26 @@ body{
 h1{
     text-align:center;
     text-transform:uppercase;
-    font-family: 'Cormorant SC', serif;
+    font-family: var(--htext), serif;
     font-size: 4em;
 }
 
 h2{
     text-align: center;
-    font-family: 'Josefin Slab', serif;
+    font-family: var(--htext), serif;
+    font-weight: 200;
     font-size: 1.5em;
     margin: -5px auto -5px auto;
 }
 
 h3{
     text-align: center;
-    font-family: 'Cormorant SC', serif;
+    font-family: var(--htext), serif;
     font-size: 4vmax;
 }
 
 h4{
-    font-family: 'Cormorant', serif;
+    font-family: var(--htext), serif;
 }
 
 a{
@@ -50,8 +52,10 @@ a:hover{
 }
 
 footer, p {
-    font-family: 'Josefin Slab', serif;
-    font-size: 22px;
+    font-family: var(--ptext), serif;
+    font-size: 16px;
+    font-weight:lighter;
+    line-height: 28px;
 }
 
 footer{
@@ -66,14 +70,14 @@ footer{
 
 
 .navbar-brand{
-    font-family: 'Cormorant SC', serif;
+    font-family: var(--htext), serif;
     font-size: 30px;
 }
 
 .nav-link{
-    font-family: 'Josefin Slab', serif;
-    font-size: 20px;
-    font-weight: 600;
+    font-family: var(--ptext), serif;
+    font-size: 16px;
+    font-weight: 100;
     transition: all 200ms ease-in-out;
     margin: auto 1em auto 1em;
 }
@@ -101,7 +105,6 @@ footer{
     text-decoration: none;
     color: var(--tan);
     font-style: italic;
-    
 }
 
 .inPlink{
@@ -110,11 +113,12 @@ footer{
 
 .meetBtn{
     margin: 3em auto 3em auto;
+    padding: 20px 0 20px 0;
     max-width: 60%;
     background-color: var(--lime);
     color: var(--white);
     text-align: center;
-    font-family: 'Cormorant SC', serif;
+    font-family: var(--htext), serif;
     font-size: 40px;
     border-radius: 20px;
     transition: all 200ms ease-in-out;
@@ -176,7 +180,7 @@ footer{
   
   .cardTitle {
     font-size: 20px;
-    font-family: "Cormorant SC", serif;
+    font-family: var(--htext), serif;
     margin: 0;
     color: black;
   }
@@ -238,7 +242,7 @@ footer{
   }
 
   .subsechead{
-    font-family: 'Cormorant', serif;
+    font-family: var(--htext), serif;
     text-transform: uppercase;
     font-size: 1.6em;
   }
@@ -305,7 +309,7 @@ footer{
 
 .paymentTitle{
   font-size: 30px;
-  font-family: 'Josefin Slab', serif;
+  font-family: var(--ptext), serif;
   font-weight: bold;
 }
 
