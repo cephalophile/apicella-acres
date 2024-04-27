@@ -97,6 +97,45 @@ footer{
     padding-bottom: 100px;
 }
 
+#annbanner{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #9c2f21;
+    color: #fafafc;
+    text-align: end;
+}
+
+.annprice{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+#annbody{
+  margin: 50px;
+  padding: 20px;
+
+}
+
+#bannerimg{
+   margin: 10px;
+}
+
+.bannertopline{
+  height: 15px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  background-color: #9c2f21;
+}
+
+.bannerbottomline{
+  height: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background-color: #9c2f21;
+}
+
 .aboutImg{
     max-height: 300px;
 }
