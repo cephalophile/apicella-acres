@@ -101,7 +101,7 @@ footer{
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 10px;
-    background-color: #b93c9c;
+    background-color: #c76bb2;
     color: #fafafc;
     text-align: end;
 }
@@ -126,14 +126,14 @@ footer{
   height: 15px;
   margin-top: 20px;
   margin-bottom: 5px;
-  background-color: #9c2f21;
+  background-color: #c76bb2;
 }
 
 .bannerbottomline{
   height: 15px;
   margin-top: 5px;
   margin-bottom: 20px;
-  background-color: #9c2f21;
+  background-color: #c76bb2;
 }
 
 .aboutImg{
