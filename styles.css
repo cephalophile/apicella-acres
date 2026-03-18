@@ -68,9 +68,437 @@ footer{
     gap: 20px 30px;
 }
 
+/*font-family: 'Cormorant SC', serif;
+font-family: 'Josefin Slab', serif;*/
+:root{
+    --white: #fafafc;
+    --lime: #678022;
+    --green: #3C5420;
+    --tan: #937143;
+    --black: #323434;
+    --htext: 'Josefin Slab';  
+    --ptext: 'Helvetica'; 
+}
+
+body{
+    background-color: var(--white);
+    max-width: 1080px;
+    margin: auto;
+}
+
+
+h1{
+    text-align:center;
+    text-transform:uppercase;
+    font-family: var(--htext), serif;
+    font-size: 4em;
+}
+
+h2{
+    text-align: center;
+    font-family: var(--htext), serif;
+    font-weight: 200;
+    font-size: 1.5em;
+    margin: -5px auto -5px auto;
+}
+
+h3{
+    text-align: center;
+    font-family: var(--htext), serif;
+    font-size: 4vmax;
+}
+
+h4{
+    font-family: var(--htext), serif;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:hover{
+    color: var(--white);
+}
+
+footer, p {
+    font-family: var(--ptext), serif;
+    font-size: 16px;
+    font-weight:lighter;
+    line-height: 28px;
+}
+
+footer{
+    color:rgba(34, 33, 33,0.5);
+    font-size: 18px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 1em;
+    gap: 20px 30px;
+}
+
 nav{
   position: sticky;
 }
+.navbar-brand{
+    font-family: var(--htext), serif;
+    font-size: 30px;
+}
+
+.nav-link{
+    font-family: var(--ptext), serif;
+    font-size: 16px;
+    font-weight: 100;
+    transition: all 200ms ease-in-out;
+    margin: auto 1em auto 1em;
+}
+
+.nav-link:hover, .nav-link:focus{
+    text-decoration: overline;
+    color: var(--lime);
+}
+
+.hero{
+    background-color: var(--green);
+    color: var(--white);
+    padding: 50px;
+}    
+
+.welcome{
+    padding-bottom: 100px;
+}
+
+#annbanner{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #c76bb2;
+    color: #fafafc;
+    text-align: end;
+}
+
+.annprice{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+#annbody{
+  margin: 50px;
+  padding: 20px;
+
+}
+
+#bannerimg{
+   margin: 10px;
+}
+
+.bannertopline{
+  height: 15px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  background-color: #c76bb2;
+}
+
+.bannerbottomline{
+  height: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background-color: #c76bb2;
+}
+
+.aboutImg{
+    max-height: 300px;
+}
+
+.aboutPara > p > a {
+    text-decoration: none;
+    color: var(--tan);
+    font-style: italic;
+}
+
+.inPlink{
+    color: var(--tan)!important;
+}
+
+.meetBtn{
+    margin: 3em auto 3em auto;
+    padding: 20px 0 20px 0;
+    max-width: 60%;
+    background-color: var(--lime);
+    color: var(--white);
+    text-align: center;
+    font-family: var(--htext), serif;
+    font-size: 40px;
+    border-radius: 20px;
+    transition: all 200ms ease-in-out;
+}
+
+.meetBtn:hover, .meetBtn:focus{
+    background-color: var(--green);
+}
+
+
+
+
+/*===== BIO SECTION =====*/
+.bioWrapper {
+    padding: 40px;
+   
+  }
+  .bioContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 80px;
+    row-gap: 150px;
+    margin-bottom: 100px;
+  }
+  .bioCard {
+    max-width: 200px;
+  }
+  
+  .bioImg {
+    object-fit: cover;
+    max-width: 200px;
+    max-height: 200px;
+    border: 3px solid var(--white);
+    border-radius: 200px;
+    background-color: var(--lime);
+    margin-bottom: 15px;
+  }
+  
+  .bioInfo {
+    display: flex;
+    max-width: 200px;
+    justify-self: center;
+    align-content: space-between;
+    background-color: rgba(147, 113, 67, .3);
+    border-radius: 0 0 20px 20px;
+    margin: -100px 0;
+    padding: 10px;
+  }
+  
+  .bioInfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-content: space-between;
+    margin-top: 80px;
+  }
+  
+  .cardTitle {
+    font-size: 20px;
+    font-family: var(--htext), serif;
+    margin: 0;
+    color: black;
+  }
+  
+  .names {
+    margin-top: -2px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-style: italic;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .cardInfo {
+    font-size: 14px;
+    font-family:sans-serif;
+    font-weight: 100;
+    color: black;
+    margin-top: 0px;
+  }
+  
+  .eggSection {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
+    column-gap: 10px;
+  }
+  .eggInfo {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin-top: 10px;
+    color: black;
+  }
+  
+  .eggImg {
+    max-height: 40px;
+  }
+
+  /*--===== END BIO =====--*/
+
+  /*===== SUSTAINABILITY =====*/
+.sustainabilityContainer{
+    padding: 8%;
+    background-color: var(--tan);
+    color: var(--white);
+    margin-bottom: 150px;
+    
+}/*===== end sustainability =====*/
+
+  /*===== GET EGGS =====*/
+  .getEggsSection{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .eggHeaderText{
+    color: var(--black)!important;
+    font-size: 6vmax;
+  }
+
+  .subsechead{
+    font-family: var(--htext), serif;
+    text-transform: uppercase;
+    font-size: 1.6em;
+  }
+
+  .getEggsInfo{
+    color: rgba(250,250,252,0.75);
+    margin: auto;
+    padding: 30px;
+    background-color: var(--green);
+  }
+  
+  .getEggsInfoText{
+    font-size: 1.5em;
+  }
+  #cost{
+    color: var(--white);
+    font-style: oblique;
+    font-size: 2em;
+  }
+
+  .emailLink{
+    color: var(--tan);
+  }
+
+  .emailLink:hover, emailLink:focus{
+    color:#323434;
+  }
+  
+  .topBtn{
+    width: 150px;
+    color: var(--white);
+    padding: 10px;
+    background-color: var(--tan);
+    margin: 30px auto 30px auto;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 20px;
+    transition: all 200ms ease-in-out;
+  }
+
+  .topBtn:hover, .topBtn:focus{
+    background-color: #4e3a1d;
+  }
+
+  .rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#nextdoor-link {
+  color:#678022;
+  font-weight: bold;
+}
+
+.payment{
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.paymentTitle{
+  font-size: 30px;
+  font-family: var(--ptext), serif;
+  font-weight: bold;
+}
+
+.colorBlack{
+  color: black;
+}
+
+.colorBlack:hover{
+  color: var(--green);
+}
+
+.paymentTag{
+  font-size: 18px;
+}
+
+.paymentQR{
+  max-width: 300px;
+}
+
+  /*===== FOOTER =====*/
+  .footerLink{
+    text-decoration: none;
+    color: var(--black);
+    transition: all 200ms ease-in-out;
+}
+
+.footerLink:hover, .footerLink:focus{
+    color: var(--black);
+    text-decoration: underline;
+}
+
+.fa-instagram{
+    font-size: 20px;
+    color: var(--lime);
+}
+
+.fa-instagram:hover, .fa-instagram:focus{
+    color: var(--green);
+}
+
+.shadow{
+    box-shadow: 10px 10px 10px yellow;
+}
+
+/*===== end of footer =====*/
+
+
+
+@media (max-width: 769px){
+    .navbar-brand{
+        margin: auto auto auto 5%;
+    }
+
+    .row{
+        margin: 0!important;
+    }
+
+    .description{
+    text-align: center!important;
+    padding: 10px;
+  }
+
+    .meetBtn{
+        margin-top: 2em;
+    }
+
+    .subsechead{
+        margin-top: 50px;
+    }
+}
+
+nav{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
 .navbar-brand{
     font-family: var(--htext), serif;
     font-size: 30px;
