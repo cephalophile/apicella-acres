@@ -68,7 +68,9 @@ footer{
     gap: 20px 30px;
 }
 
-
+.navbar{
+  position: sticky;
+}
 .navbar-brand{
     font-family: var(--htext), serif;
     font-size: 30px;
